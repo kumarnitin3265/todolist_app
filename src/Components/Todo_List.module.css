@@ -1,0 +1,60 @@
+.options {
+  /* margin-left: 100px; */
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.todoCntnr {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 40px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(163, 18, 119, 0.792);
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  margin: 10px 0;
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  display: flex;
+
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+.compeleted {
+  text-decoration: line-through;
+  color: #888;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.list .delete {
+  margin-right: 30px;
+}
